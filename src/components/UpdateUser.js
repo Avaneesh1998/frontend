@@ -2,7 +2,7 @@ import { useFormik } from 'formik'
 import React from 'react'
 import Swal from 'sweetalert2';
 
-const Signup = () => {
+const UpdateUser = () => {
 
     const signupForm = useFormik({
         initialValues:{
@@ -136,4 +136,4 @@ const Signup = () => {
   )
 }
 
-export default Signup;
+export default UpdateUser;

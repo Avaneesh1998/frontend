@@ -50,7 +50,12 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
             <NavLink className="nav-link" to="/event">
-              Event
+              Event Handling
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/manage">
+              Manage User
             </NavLink>
           </li>
         </ul>
@@ -149,4 +154,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

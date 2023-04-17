@@ -88,7 +88,6 @@ const Footer = () => {
   </div>
   {/* Copyright */}
 </footer>
-
   )
 }
 
